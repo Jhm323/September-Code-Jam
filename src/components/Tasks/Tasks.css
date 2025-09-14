@@ -1,0 +1,47 @@
+.tasks__section {
+    padding: 16px 24px;
+}
+
+.tasks__section-title {
+    margin: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #64748b;
+    font-weight: 700;
+}
+
+.tasks__muted {
+    margin-top: 8px;
+    color: #64748b;
+}
+
+.tasks__list {
+    list-style: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+}
+
+.tasks__task {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tasks__checkbox {
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+}
+
+.tasks__label {
+    user-select: none;
+    color: #0f172a;
+}
+
+.tasks__label.is-done {
+    color: #94a3b8;
+    text-decoration: line-through;
+}
