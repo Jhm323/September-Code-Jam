@@ -1,2 +1,3 @@
 # September-Code-Jam
-Anti-Chaos Button
+
+Button: Clean The Chaos N GO!
