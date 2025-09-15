@@ -1,72 +1,93 @@
 .app__page {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 24px;
-    background: #f1f5f9;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #7aafd0;
 }
 
 .app__card {
-    width: 100%;
-    max-width: 720px;
-    background: #fff;
-    border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-    border: 1px solid rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 720px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .app__header {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 20px 24px;
-    border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 20px 24px;
+  border-bottom: 1px solid #e5e7eb;
 }
 
 .app__emoji {
-    font-size: 28px;
+  width: 132px;
+  height: 86px;
+  background-image: url("../../assets/goldfish.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.app__header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .app__title {
-    font-size: 22px;
-    font-weight: 800;
-    letter-spacing: -0.01em;
-    margin: 0;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.app__description {
+  font-size: 16px;
+  color: #f97316;
+  font-weight: 500;
+  text-align: center;
+  margin: 4px 0 0 0;
+  line-height: 1.5;
 }
 
 .app__controls {
-    padding: 16px 24px 0 24px;
+  padding: 16px 24px 0 24px;
 }
 
 .app__button {
-    appearance: none;
-    border: none;
-    background: #4f46e5;
-    color: #fff;
-    font-weight: 600;
-    padding: 10px 16px;
-    border-radius: 12px;
-    cursor: pointer;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
-    transition: background 160ms ease-in-out, transform 60ms ease-in-out;
+  appearance: none;
+  border: none;
+  background: #4f46e5;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  transition: background 160ms ease-in-out, transform 60ms ease-in-out;
 }
 
 .app__button:hover {
-    background: #6366f1;
+  background: #6366f1;
 }
 
 .app__button:active {
-    transform: translateY(1px);
-    background: #4338ca;
+  transform: translateY(1px);
+  background: #4338ca;
 }
 
 .app__complete-message {
-    margin-top: 16px;
-    padding: 12px;
-    border-radius: 0 0 8px 8px;
-    background: #d1fae5;
-    color: #065f46;
-    font-weight: 600;
-    text-align: center;
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 0 0 8px 8px;
+  background: #d1fae5;
+  color: #065f46;
+  font-weight: 600;
+  text-align: center;
 }
