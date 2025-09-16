@@ -1,47 +1,50 @@
 .tasks__section {
-    padding: 16px 24px;
-}
-
-.tasks__section-title {
-    margin: 0;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: #64748b;
-    font-weight: 700;
+  padding: 16px 24px;
+  width: 450px;
+  height: 200px;
+  background-image: url("../../assets/Liquid-Glass.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tasks__muted {
-    margin-top: 8px;
-    color: #64748b;
+  width: 325px;
+  margin-top: 8px;
+  color: #f97316;
+  margin: 70px;
 }
 
 .tasks__list {
-    list-style: none;
-    margin: 10px 0 0 0;
-    padding: 0;
-    display: grid;
-    gap: 10px;
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  margin: 40px;
 }
 
 .tasks__task {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .tasks__checkbox {
-    width: 16px;
-    height: 16px;
-    margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
 }
 
 .tasks__label {
-    user-select: none;
-    color: #0f172a;
+  user-select: none;
+  color: #f97316;
 }
 
 .tasks__label.is-done {
-    color: #94a3b8;
-    text-decoration: line-through;
+  color: #94a3b8;
+  text-decoration: line-through;
 }

@@ -4,16 +4,23 @@
   align-items: center;
   justify-content: center;
   padding: 24px;
-  background: #7aafd0;
+  background-image: url("../../assets/ocean.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .app__card {
   width: 100%;
   max-width: 720px;
-  background: #fff;
+  background: #507caa;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
   border: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .app__header {
@@ -45,6 +52,7 @@
   font-weight: 800;
   letter-spacing: -0.01em;
   margin: 0;
+  color: #f97316;
 }
 
 .app__description {
@@ -58,12 +66,25 @@
 
 .app__controls {
   padding: 16px 24px 0 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__controls-message {
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #f97316;
+  font-weight: 700;
 }
 
 .app__button {
   appearance: none;
   border: none;
-  background: #4f46e5;
+  background: #f97316;
   color: #fff;
   font-weight: 600;
   padding: 10px 16px;
@@ -71,10 +92,11 @@
   cursor: pointer;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
   transition: background 160ms ease-in-out, transform 60ms ease-in-out;
+  margin: 0px 20px 0px 20px;
 }
 
 .app__button:hover {
-  background: #6366f1;
+  background: #6fa9db;
 }
 
 .app__button:active {
@@ -86,8 +108,15 @@
   margin-top: 16px;
   padding: 12px;
   border-radius: 0 0 8px 8px;
-  background: #d1fae5;
-  color: #065f46;
+  background: url("../../assets/Liquid-Glass.png");
+  background-size: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #f97316;
   font-weight: 600;
   text-align: center;
+}
+
+.app__progress {
+  width: 500px;
 }

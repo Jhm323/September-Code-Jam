@@ -1,10 +1,9 @@
 export default function Tasks({ tasks, checked, toggleTask }) {
   return (
     <section className="tasks__section">
-      <h2 className="tasks__section-title"> No need to flounder</h2>
       {tasks.length === 0 ? (
         <p className="tasks__muted">
-          Click “Generate Challenge” to get 3–5 tasks.
+          I’ve been swimming around these ideas… ready for some cleaning?
         </p>
       ) : (
         <ul className="tasks__list">

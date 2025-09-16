@@ -54,30 +54,38 @@ export default function App() {
     <div className="app__page">
       <div className="app__card">
         <div className="app__header">
-          <div className="app__emoji"></div>
           <div className="app__header-text">
             <h1 className="app__title">Tidy Fish</h1>
             <p className="app__description">
-              Keeping eyes on the mess so you don't have to
+              Drowning in the mess? TidyFish Keeps eyes on the mess so you don't
+              have to
             </p>
           </div>
         </div>
 
         <div className="app__controls">
+          <h2 className="app__controls-message">
+            {" "}
+            No need to flounder! CLICK TO:
+          </h2>
+
           <button className="app__button" onClick={generateChallenge}>
-            Click to Tidy
+            TIDY
           </button>
         </div>
 
+        <div className="app__progress">
+          <Progress progressPct={progressPct} />
+
+          {progressPct === 100 && tasks.length > 0 && (
+            <div className="app__complete-message">
+              All tasks complete! You deserve some Fish Food!
+            </div>
+          )}
+        </div>
+
         <Tasks tasks={tasks} toggleTask={toggleTask} checked={checked} />
-
-        <Progress progressPct={progressPct} />
-
-        {progressPct === 100 && tasks.length > 0 && (
-          <div className="app__complete-message">
-            🎉 All tasks complete! You deserve some Fish Food!
-          </div>
-        )}
+        <div className="app__emoji"></div>
       </div>
     </div>
   );
