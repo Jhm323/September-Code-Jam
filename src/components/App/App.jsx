@@ -55,10 +55,10 @@ export default function App() {
       <div className="app__card">
         <div className="app__header">
           <div className="app__header-text">
-            <h1 className="app__title">Tidy Fish</h1>
+            <h1 className="app__title">TidyFish</h1>
             <p className="app__description">
-              Drowning in the mess? TidyFish Keeps eyes on the mess so you don't
-              have to
+              Drowning in the clean-up? TidyFish Keeps eyes on the mess so you
+              don't have to...
             </p>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function App() {
         <div className="app__controls">
           <h2 className="app__controls-message">
             {" "}
-            No need to flounder! CLICK TO:
+            No need to flounder! CLICK TO
           </h2>
 
           <button className="app__button" onClick={generateChallenge}>
