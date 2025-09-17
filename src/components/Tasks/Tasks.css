@@ -19,7 +19,8 @@
   width: 325px;
   margin-top: 8px;
   color: #f97316;
-  margin: 70px;
+  margin: auto 0;
+  font-size: 25px;
 }
 
 .tasks__list {
@@ -45,10 +46,29 @@
 
 .tasks__label {
   user-select: none;
-  color: #f97316;
+  color: cornflowerblue;
 }
 
 .tasks__label.is-done {
   color: #94a3b8;
   text-decoration: line-through;
+}
+
+@media (max-width: 768px) {
+  .tasks__muted {
+    font-size: 20px;
+    text-align: center;
+    width: 215px;
+  }
+  .tasks__section {
+    width: 390px;
+    padding: 8px;
+    height: 180px;
+  }
+  .tasks__list {
+    gap: 5px;
+    font-size: 13px;
+
+    text-align: center;
+  }
 }

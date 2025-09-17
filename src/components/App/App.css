@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 .app__page {
   min-height: 100vh;
@@ -44,7 +45,7 @@
 }
 
 .app__title {
-  font-family: "Pacifico", cursive;
+  font-family: "Montserrat", cursive;
   font-size: 52px;
   font-weight: 800;
   letter-spacing: -0.01em;
@@ -82,14 +83,14 @@
 }
 
 .app__button {
-  font-family: "Fredoka One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   appearance: none;
   border: none;
   background: #f97316;
   color: #fff;
   font-weight: 600;
-  padding: 10px 16px;
+  padding: 5px 10px;
   border-radius: 12px;
   cursor: pointer;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
@@ -125,7 +126,7 @@
   width: 550px;
 }
 
-.app__emoji {
+.app__logo {
   width: 200px;
   height: 150px;
   background-image: url("../../assets/goldfish.png");
@@ -133,4 +134,33 @@
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .app__card {
+    width: 95%;
+    gap: 15px;
+    height: 660px;
+    max-width: 760px;
+  }
+  .app__description {
+    width: 380px;
+    font-size: 23px;
+  }
+  .app__logo {
+    margin-bottom: 10px;
+    width: 85px;
+    height: 55px;
+  }
+  .app__title {
+    font-size: 48px;
+  }
+  .app__controls-message {
+    font-size: 16px;
+    color: floralwhite;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Styles for smaller mobile devices */
 }

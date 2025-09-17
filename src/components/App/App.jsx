@@ -29,7 +29,7 @@ export default function App() {
 
   const progressPct = tasks.length
     ? Math.round(
-        (Object.values(checked).filter(Boolean).length / tasks.length) * 100
+        (Object.values(checked).filter(Boolean).length / tasks.length) * 10
       )
     : 0;
 
@@ -85,7 +85,7 @@ export default function App() {
         </div>
 
         <Tasks tasks={tasks} toggleTask={toggleTask} checked={checked} />
-        <div className="app__emoji"></div>
+        <div className="app__logo"></div>
       </div>
     </div>
   );
