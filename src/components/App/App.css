@@ -149,8 +149,9 @@
   }
   .app__logo {
     margin-bottom: 10px;
-    width: 85px;
+
     height: 55px;
+    width: 70px;
   }
   .app__title {
     font-size: 48px;
@@ -162,5 +163,4 @@
 }
 
 @media (max-width: 600px) {
-  /* Styles for smaller mobile devices */
 }

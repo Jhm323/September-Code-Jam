@@ -29,7 +29,7 @@ export default function App() {
 
   const progressPct = tasks.length
     ? Math.round(
-        (Object.values(checked).filter(Boolean).length / tasks.length) * 10
+        (Object.values(checked).filter(Boolean).length / tasks.length) * 100
       )
     : 0;
 
