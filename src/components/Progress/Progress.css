@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: space-between;
   font-weight: 600;
-  color: #f97316;
+  color: white;
   margin-bottom: 8px;
 }
 
@@ -61,6 +61,17 @@
 }
 
 .progress__dust-text {
-  color: #f97316;
+  color: #32cd32;
   font-size: 18px;
+}
+@media (max-width: 618px) {
+  .progress {
+    padding: 0 20px 20px 20px;
+  }
+  .progress__meta {
+    font-size: 13px;
+  }
+  .progress__dust-text {
+    font-size: 13px;
+  }
 }

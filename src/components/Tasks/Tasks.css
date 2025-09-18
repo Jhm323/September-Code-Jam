@@ -18,7 +18,7 @@
 .tasks__muted {
   width: 325px;
   margin-top: 8px;
-  color: #f97316;
+  color: #006d77;
   margin: auto 0;
   font-size: 25px;
 }
@@ -70,5 +70,10 @@
     font-size: 13px;
 
     text-align: center;
+  }
+}
+@media (max-width: 618px) {
+  .tasks__muted {
+    font-size: 15px;
   }
 }
