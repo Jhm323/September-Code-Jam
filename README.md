@@ -47,7 +47,8 @@ This project is licensed under the [ISC License](LICENSE).
 
 [Pasha Zobov](https://github.com/Pavkv),
 [Holden Moore](https://github.com/Jhm323),
-// add other team members
+[Lalla Blue] (https://github.com/sociablerobot10)
+
 
 2025 © Team Tidy Fish
 
