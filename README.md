@@ -8,7 +8,7 @@ When all tasks are complete, a congratulatory message is displayed.
 
 ## Preview
 
-// Add a preview image
+<img width="1469" height="785" alt="image" src="https://github.com/user-attachments/assets/e04ff903-48cf-4fc0-a1a2-b1741e91a524" />
 
 ---
 
