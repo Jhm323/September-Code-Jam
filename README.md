@@ -14,7 +14,7 @@ When all tasks are complete, a congratulatory message is displayed.
 
 ## Web Link
 
-// Add a web link
+https://pavkv.github.io/September-Code-Jam/
 
 ---
 
