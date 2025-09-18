@@ -49,7 +49,6 @@ This project is licensed under the [ISC License](LICENSE).
 [Holden Moore](https://github.com/Jhm323),
 [Lalla Blue](https://github.com/sociablerobot10)
 
-
 2025 © Team Tidy Fish
 
 ---

@@ -1,71 +1,71 @@
 .tasks__section {
-    font-family: "Fredoka One", sans-serif;
-    font-size: 18px;
-    padding: 16px 24px;
-    width: 450px;
-    height: 200px;
-    background-image: url("../../assets/Liquid-Glass.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+  font-family: "Fredoka One", sans-serif;
+  font-size: 18px;
+  padding: 16px 24px;
+  width: 450px;
+  height: 200px;
+  background-image: url("../../assets/Liquid-Glass.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .tasks__muted {
-    width: 325px;
-    color: #006d77;
-    margin: auto 0;
-    font-size: 25px;
+  width: 325px;
+  color: #006d77;
+  margin: auto 0;
+  font-size: 25px;
 }
 
 .tasks__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    gap: 10px;
-    justify-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+  justify-items: center;
 }
 
 .tasks__task {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .tasks__checkbox {
-    width: 16px;
-    height: 16px;
+  width: 16px;
+  height: 16px;
 }
 
 .tasks__label {
-    user-select: none;
-    color: cornflowerblue;
+  user-select: none;
+  color: cornflowerblue;
 }
 
 .tasks__label.is-done {
-    color: #94a3b8;
-    text-decoration: line-through;
+  color: #94a3b8;
+  text-decoration: line-through;
 }
 
 @media (max-width: 768px) {
-    .tasks__muted {
-        font-size: 20px;
-        text-align: center;
-        width: 215px;
-    }
-    .tasks__section {
-        width: calc(100% - 24px);
-        padding: 8px;
-        height: 180px;
-    }
-    .tasks__list {
-        gap: 5px;
-        font-size: 14px;
-    }
+  .tasks__muted {
+    font-size: 20px;
+    text-align: center;
+    width: 215px;
+  }
+  .tasks__section {
+    width: calc(100% - 24px);
+    padding: 8px;
+    height: 180px;
+  }
+  .tasks__list {
+    gap: 5px;
+    font-size: 14px;
+  }
 }

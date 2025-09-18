@@ -90,7 +90,9 @@
   border-radius: 12px;
   cursor: pointer;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
-  transition: background 160ms ease-in-out, transform 60ms ease-in-out;
+  transition:
+    background 160ms ease-in-out,
+    transform 60ms ease-in-out;
   margin-left: 5px;
 }
 
@@ -109,9 +111,9 @@
   margin-top: 16px;
   padding: 12px;
   border-radius: 0 0 8px 8px;
-    background-size: cover;
-    background: url("../../assets/Liquid-Glass.png") no-repeat center;
-    color: #2e8b57;
+  background-size: cover;
+  background: url("../../assets/Liquid-Glass.png") no-repeat center;
+  color: #2e8b57;
   font-weight: 600;
   text-align: center;
 }
@@ -131,20 +133,20 @@
 }
 
 @media (max-width: 768px) {
-    .app__page {
-        width: calc(100% - 24px);
-        padding: 12px;
-        justify-content: flex-start;
-    }
+  .app__page {
+    width: calc(100% - 24px);
+    padding: 12px;
+    justify-content: flex-start;
+  }
 
   .app__card {
     height: 660px;
-      border-radius: 16%;
+    border-radius: 16%;
   }
 
   .app__header {
-      margin: 0;
-      padding: 13px;
+    margin: 0;
+    padding: 13px;
   }
 
   .app__description {

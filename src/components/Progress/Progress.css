@@ -64,7 +64,7 @@
 }
 
 @media (max-width: 768px) {
-    .progress {
-        padding: 6px;
-    }
+  .progress {
+    padding: 6px;
+  }
 }
