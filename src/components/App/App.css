@@ -1,9 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-
 .app__page {
-  min-height: 100vh;
+  min-height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,7 +61,7 @@
 }
 
 .app__controls {
-  padding: 0px 24px 0 24px;
+  padding: 0 24px 0 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -113,17 +109,15 @@
   margin-top: 16px;
   padding: 12px;
   border-radius: 0 0 8px 8px;
-  background: url("../../assets/Liquid-Glass.png");
-  background-size: fill;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: #2e8b57;
+    background-size: cover;
+    background: url("../../assets/Liquid-Glass.png") no-repeat center;
+    color: #2e8b57;
   font-weight: 600;
   text-align: center;
 }
 
 .app__progress {
-  width: 550px;
+  width: calc(100% - 24px);
 }
 
 .app__logo {
@@ -137,18 +131,29 @@
 }
 
 @media (max-width: 768px) {
+    .app__page {
+        width: calc(100% - 24px);
+        padding: 12px;
+        justify-content: flex-start;
+    }
+
   .app__card {
-    width: 95%;
-    gap: 15px;
     height: 660px;
-    max-width: 760px;
+      border-radius: 16%;
   }
+
+  .app__header {
+      margin: 0;
+      padding: 13px;
+  }
+
   .app__description {
-    width: 380px;
+    width: 100%;
     font-size: 23px;
   }
+
   .app__logo {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 
     height: 55px;
     width: 70px;
@@ -157,24 +162,9 @@
   .app__title {
     font-size: 48px;
   }
-  .app__controls-message {
-    font-size: 16px;
-    color: floralwhite;
-  }
-}
 
-@media (max-width: 618px) {
-  .app__title {
-    font-size: 30px;
-  }
-  .app__description {
-    font-size: 16px;
-    width: 270px;
-  }
   .app__controls-message {
-    font-size: 13px;
-  }
-  .app__card {
-    border-radius: 16%;
+    font-size: 14px;
+    color: floralwhite;
   }
 }

@@ -4,9 +4,13 @@ import { BrowserRouter } from "react-router-dom";
 import './index.css'
 import App from './components/App/App.jsx'
 
+const basename = import.meta.env.MODE === 'development'
+    ? '/cleaning-challenge-generator/'
+    : ''
+
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <BrowserRouter basename='/cleaning-challenge-generator/'>
+        <BrowserRouter basename={basename}>
             <App />
         </BrowserRouter>
     </StrictMode>,
